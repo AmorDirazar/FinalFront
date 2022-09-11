@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    /*border: red solid;*/
+}
+header body{
+    background-color: #F5F5F5;
+}
+.backVioleta{
+    background-color: #8B48BF;
+}
+footer{
+    background-color: black;
+}
+.footerP{
+    color: #8C8C94;
+}
