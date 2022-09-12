@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
     font-family: 'Be Vietnam Pro', sans-serif;
-    /*border: red solid;*/
+    border: red solid;
 }
 header body{
     background-color: #F5F5F5;
@@ -15,11 +15,77 @@ footer{
 .footerP{
     color: #8C8C94;
 }
-/*diseño mobile
-@media{(max-width: 480px){
+header{
+    font-weight: 500;
+    font-size: 13px;
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-between;
+}
+header img{
+    margin-left: 30px;
+    width: 100px;
+}
+body{
+    font-weight: 500;
+    font-size: 16px;
+}
+.bienvenida h2{
+    font-weight: 700;
+    font-size: 58px;
+}
+.bienvenida{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+.bienvenida div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+}
+.bienvenida p{
+    width: 80%;
+}
+.bienvenida img{
+    width: 40%;
+}
+.about h2{
+    font-weight: 700;
+    font-size: 36px;
+}
+button{
+    color: #FFFFFF;
+    background-color: #8B48BF;
+    border-radius: 50px;
+    width: 134px;
+    height: 44px;
+    padding: 10px;
+}
+.boton4{
+    color: #8B48BF;
+    background-color: #FFFFFF;
+}
 
+
+
+/*diseño mobile
+@media{(max-width: 480px)
+    .navBar{
+        display:none
+    }
+    .bienvenida{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .bienvenida img{
+        width: 80%;
+    }
 }
-}
+
 
 
 /*diseño desktop
