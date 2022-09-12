@@ -1,8 +1,13 @@
 *{
     box-sizing: border-box;
     font-family: 'Be Vietnam Pro', sans-serif;
-    border: red solid;
+    margin: 0;
+    padding: 0;
 }
+body{
+    width: 100vw;
+}
+/*background color y fuentes*/
 header body{
     background-color: #F5F5F5;
 }
@@ -15,17 +20,13 @@ footer{
 .footerP{
     color: #8C8C94;
 }
+.boton4{
+    color: #8B48BF;
+    background-color: #FFFFFF;
+}
 header{
     font-weight: 500;
     font-size: 13px;
-    display: flex;
-    height: 10vh;
-    align-items: center;
-    justify-content: space-between;
-}
-header img{
-    margin-left: 30px;
-    width: 100px;
 }
 body{
     font-weight: 500;
@@ -35,6 +36,37 @@ body{
     font-weight: 700;
     font-size: 58px;
 }
+.lista p{
+    font-weight: 500;
+    color: #B3B2B7;
+}
+.testimonios h3{
+    font-weight: 700;
+    color: #3F4868;
+}
+.testimonios p{
+    font-weight: 600;
+    color: #B9B9C1;
+}
+.title{
+    font-weight: 700;
+}
+footer{
+    font-weight: 400;
+    font-size: 16px;
+}
+/*contenido*/
+header{
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-around;
+}
+header img{
+    margin-left: 30px;
+    width: 100px;
+}
+
 .bienvenida{
     position: relative;
     display: flex;
@@ -43,18 +75,23 @@ body{
 .bienvenida div{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    align-content: space-around;
     width: 45%;
 }
 .bienvenida p{
     width: 80%;
 }
 .bienvenida img{
-    width: 40%;
+    width: 60%;
 }
 .about h2{
     font-weight: 700;
     font-size: 36px;
+}
+.backVioleta h2{
+    font-weight: 700;
+    font-size: 40px;
 }
 button{
     color: #FFFFFF;
@@ -64,11 +101,39 @@ button{
     height: 44px;
     padding: 10px;
 }
-.boton4{
-    color: #8B48BF;
-    background-color: #FFFFFF;
+.middle{
+    display: flex;
+    justify-content: space-between;
 }
-
+.testimonios{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.testimonios div{
+    display: flex;
+    flex-direction: row;
+}
+.anisha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ali{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.richard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 
 /*diseño mobile
