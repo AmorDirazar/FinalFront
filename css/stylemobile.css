@@ -98,6 +98,7 @@ footer{
     font-size: 40px;
     color: #FFFFFF;
 }
+/* ACA COMIENZA EL DESARROLLO **/
 
 /*** HEADER ***/
 
@@ -110,7 +111,6 @@ header{
 }
 header img{
     margin-left: 30px;
-    
 }
 .navBar{
     display: none;
@@ -241,6 +241,7 @@ footer{
     align-items: center;
 }
 .footerForm{
+    padding-top: 52px;
     text-align: center;
 }
 input.formulario{
@@ -287,3 +288,109 @@ footer p{
     text-align: center;
     padding: 50px;
 }
+@media screen and (min-width:1440px) {
+
+/* HEADER DESKTOP*/
+header{
+    padding: 90px;
+}
+.header img{
+    align-self: center;
+    margin-left: 50px;
+    width: auto;
+}
+.navBar{
+    display: flex;
+    justify-content: space-between;
+}
+.navBar a{
+    padding: 28px;
+}
+.hambur{
+    display: none;
+}
+.boton1{
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px;
+    color: white;
+    display: block;
+    font-size: 0.8rem;
+    padding: 12px 17px;
+    text-decoration: none;
+}
+/* BIENVENIDA */
+.bienvenida{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+.bienvenida div{
+    text-align: left;
+    width: 440px;
+}
+.bienvenida div p{
+    padding-left: 0px;
+}
+
+/* MIDDLE */
+
+.middle{
+    display: flex;
+    justify-content: space-around;
+}
+.about{
+    text-align: left;
+    width: 433px;
+    padding-top: 0px;
+}
+.about p{
+    padding-top: 36px;
+    width: 337px;
+}
+.listas h3{
+    background: #F5F5F5;
+}
+.listas p{
+    padding-left: 66px;
+    padding-top: 18px;
+}
+
+/* TESTIMONIOS */
+
+.testimonios h2{
+    padding-top: 132px;
+}
+.card{
+    display: flex;
+}
+.Anisha{
+    display: inline-block
+}
+.Richard{
+    display: inline-block;
+}
+.card p{
+    width: 390px;
+}
+/* BACKGROUND VIOLETA */
+.backVioleta{
+    padding-top: 64px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 190px;
+}
+.backVioleta h2{
+    text-align: left;
+}
+
+/* FOOTER */
+footer{
+    flex-direction: row-reverse;
+}
+
+
+
+
+
+
+    }
