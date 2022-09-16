@@ -260,12 +260,14 @@ button.go{
     justify-content: space-around;
     margin: 20px 0 20px 0;
 }
-.Pages{
-    margin: 4rem;
+.Pages ul li{
+    padding: 12px;
 }
-.Pages a{
-    padding-top: 2rem;
-    margin-top: 2rem;
+.footLista1{
+    margin-right: 75px;
+}
+.footLista2{
+    margin-left: 75px;
 }
 .redes{
     display: flex;
