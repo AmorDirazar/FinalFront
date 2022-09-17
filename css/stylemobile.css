@@ -44,6 +44,30 @@ button{
     padding: 10px;
 }
 
+/*** HOVER ***/
+
+.boton1:hover{
+    color: rgba(139, 72, 191, 0.9);
+    background-color: rgba(139, 72, 191, 0.2);
+}
+.boton2:hover{
+    color: rgba(139, 72, 191, 0.9);
+    background-color: rgba(139, 72, 191, 0.2);
+}
+.boton3:hover{
+    color: rgba(139, 72, 191, 0.9);
+    background-color: rgba(139, 72, 191, 0.2);
+}
+.boton4:hover{
+    color: rgba(212, 167, 245, 0.9);
+    background-color: rgba(128, 94, 156, 0.5);
+}
+button.go:hover{
+    color: white;
+    background-color: #232C50;
+}
+
+
 /******************** FONT SIZE / COLOR *********************************/
 header{
     font-weight: 500;
@@ -153,6 +177,9 @@ header i{
 .listas{
     padding-left: 34px;
 }
+.listas h3{
+    border-radius: 30px;
+}
 .listaBoton1::before{
     background: #8B48BF;
     border-radius: 20px;
@@ -239,6 +266,7 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100vw;
 }
 .footerForm{
     padding-top: 52px;
@@ -259,7 +287,10 @@ button.go{
     display: flex;
     height: 200px;
     justify-content: space-around;
-    margin: 20px 0 20px 0;
+    margin: 20px 16px 20px 0px;
+}
+.footerPosition{
+    width: 100vw;
 }
 .Pages ul li{
     padding: 12px;
@@ -275,8 +306,8 @@ button.go{
     align-items: center;
     font-size: 30px;
     justify-content: space-between;
-    margin: 25px;
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     width: 100vw;
 }
 footer img{
@@ -385,12 +416,34 @@ header{
 
 /* FOOTER */
 footer{
+    display: flex;   
+}
+.footerPosition{
+    display: flex;
     flex-direction: row-reverse;
+    width: 100%;
+    justify-content: space-around;
+}
+footer img{
+    position: relative;
+    right: 550px;
+    bottom: 200px;
+    width: 120.34px;
+    height: 24px;
+    margin-bottom: 20px;
+}
+nav.redes{
+    width: 10vw;
+    padding-top: 160px;  
+}
+nav.redes i{
+    padding: 10px;
+}
+.footerP{
+    position: relative; 
+    right: 165px; 
+    bottom: 200px;
+    left: 450px;
 }
 
-
-
-
-
-
-    }
+}
